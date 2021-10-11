@@ -1,0 +1,149 @@
+.logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    font-family: Helvetica, sans-serif ;
+}
+.logo img{
+    width: 20%;
+}
+.marg{
+   
+    margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 2%;
+}
+.marg3{
+    margin: 2%;
+    margin-top: 20px;
+}
+ul {
+        list-style-type: none;
+    }
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  ul.breadcrumb .present a{
+      color:black
+  }
+  .table1{
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.table1 h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rows1{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    margin-top: 20px;
+
+}
+.rows1 li{
+    font-size: 18px;
+}
+.grey{
+    background-color: rgba(51, 51, 51, 0.486);
+    color: white;
+    padding:5px ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.row7{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    text-align: center;
+}
+.table2{
+    width: 200vw;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+.row4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cento{
+    text-align: left; 
+    
+}
+
+span{
+    color: green;
+}
+.red{
+    color: red;
+}
+.bred{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.bgreen{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+.blue{
+    background-color: rgb(40, 40, 146);
+    color: white;
+    text-align: center;
+}
+.coloums3{
+    display: grid;
+    grid-template-columns: 30% auto auto;
+}
+.coloums4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.coloum5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.coloums2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.margpremium{
+    width: 150%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.margpremium5{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
